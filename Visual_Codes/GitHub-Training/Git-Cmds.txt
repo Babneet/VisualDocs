@@ -22,3 +22,10 @@
 22. git rm --cached <filename> -- Will remove file from staging directory
 23. git status -s -- Will tell status of file in both working as well as stagging directory
 24. touch -gitignore -- To create a new directory and will specify all the files in it to ignore the file that needs to be ignored.
+25. git rebase -- Will copy all the commits from feature branch to master branch
+26. git stash -- Will create temporary stacks of your changes 
+27. git stash list -- Will list down all the stash
+28. git stash apply <StashNo> -- Will restore that stash
+29. git stash drop <StashNo> -- Will drop that stash
+30. git stash clear -- To clear all the stash
+31. git stash pop <StashNo> -- Will apply that stash and delete
